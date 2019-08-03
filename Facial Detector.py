@@ -7,7 +7,7 @@ faceCascade = cv2.CascadeClassifier(arqCasc)
 webcam = cv2.VideoCapture(0)  
 
 while True:
-    #Captura a imagem da webcam
+    #Captura a imagem da webcam ;
     s, imagem = webcam.read()
     #Espelha a imagem
     imagem = cv2.flip(imagem,180) 
